@@ -1,0 +1,39 @@
+{
+  "name": "redux-createstore-self",
+  "version": "1.0.0",
+  "description": "For goal of study, let us create createstore myself. Let's get it!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server ./src/index.tsx --mode development --open",
+    "build": "webpack ./src/index.tsx --development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/negabaro/redux-createstore-self.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/negabaro/redux-createstore-self/issues"
+  },
+  "homepage": "https://github.com/negabaro/redux-createstore-self#readme",
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "babel-loader": "^8.0.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.5.2",
+    "typescript": "^3.0.3",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
